@@ -50,6 +50,7 @@
                 };
                 Vue.http.post('oauth/token', data).then(res => {
                     localStorage['token'] = JSON.stringify(res.body);
+                    Vue.http.headers.common['Authorization'] = 'Bearer ' + res.body.access_token;
                     this.$router.push('/contas')
                 })
             }

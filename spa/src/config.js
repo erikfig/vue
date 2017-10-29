@@ -1,4 +1,4 @@
 export const CONFIG = {
-    'client_id': '4',
-    'client_secret': 'Kll83pjJZmBACdGTzLJIEhTIeOdZSSyLH92XRfL8'
+    'client_id': '3',
+    'client_secret': 'oOvEajisFlncUT6ulgpalpTI5r9vJfH3SzgHKLkP'
 };
